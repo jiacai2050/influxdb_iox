@@ -1,7 +1,7 @@
 //! This module handles the manipulation / execution of storage
 //! plans. This is currently implemented using DataFusion, and this
 //! interface abstracts away many of the details
-pub(crate) mod context;
+pub mod context;
 pub mod field;
 pub mod fieldlist;
 pub mod gapfill;

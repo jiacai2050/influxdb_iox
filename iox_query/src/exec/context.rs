@@ -88,7 +88,7 @@ impl QueryPlanner for IOxQueryPlanner {
 }
 
 /// Physical planner for InfluxDB IOx extension plans
-struct IOxExtensionPlanner {}
+pub struct IOxExtensionPlanner {}
 
 #[async_trait]
 impl ExtensionPlanner for IOxExtensionPlanner {
